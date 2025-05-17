@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import readlineSync from 'readline-sync';
+import readlineSync from 'readline-sync'
 import { sum, substract, multiply, division } from './cals-logic.js'
 
 const OPERATORS = {
