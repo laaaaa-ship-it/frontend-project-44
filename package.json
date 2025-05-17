@@ -1,19 +1,26 @@
 {
  "name": "@hexlet/code",
-  "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/laaaaa-ship-it/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/laaaaa-ship-it/frontend-project-44/actions)",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/laaaaa-ship-it/frontend-project-44.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/laaaaa-ship-it/frontend-project-44/issues"
-  },
-  "homepage": "https://github.com/laaaaa-ship-it/frontend-project-44#readme"
+ "version": "1.0.0",
+ "description": "[![Actions Status](https://github.com/laaaaa-ship-it/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/laaaaa-ship-it/frontend-project-44/actions)",
+ "main": "index.js",
+ "type": "module",
+ "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "install-deps": "npm ci",
+  "brain-games": "node bin/brain-games.js",
+  "start": "node bin/brain-games.js"
+ },
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/laaaaa-ship-it/frontend-project-44.git"
+ },
+ "author": "",
+ "license": "ISC",
+ "bugs": {
+  "url": "https://github.com/laaaaa-ship-it/frontend-project-44/issues"
+ },
+ "homepage": "https://github.com/laaaaa-ship-it/frontend-project-44#readme",
+ "dependencies": {
+  "make": "^0.8.1"
+ }
 }
