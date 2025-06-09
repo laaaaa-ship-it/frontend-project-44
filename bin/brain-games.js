@@ -1,6 +1,10 @@
-#!/usr/bin/env nodenpm link
-import readlineSync from 'readline-sync'
+#!/usr/bin/env node
+// ↑ Шебанг (обязательно!) — указывает, что скрипт запускается через Node.js
+
+import welcomeUser from '../src/cli.js'
 
 console.log('Welcome to the Brain Games!')
-const userName = readlineSync.question('May I have your name? ')
-console.log(`Hello, ${userName}!`)
+
+const name = welcomeUser()
+
+console.log(`Hello, ${name}!`)
